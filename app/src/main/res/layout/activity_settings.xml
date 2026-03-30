@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/white">
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="16dp"
+        android:background="?attr/selectableItemBackground"
+        android:padding="12dp"
+        android:src="@drawable/ic_back_arrow"
+        android:contentDescription="Back Button"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:paddingBottom="20dp"/>
+
+
+    <!-- Change Password Option -->
+    <LinearLayout
+        android:id="@+id/layoutChangePassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        android:clickable="true"
+        android:focusable="true">
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Change Password"
+            android:textSize="16sp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=">"
+            android:textSize="18sp"
+            android:textColor="@color/gray"/>
+    </LinearLayout>
+
+    <!-- Dark Mode Toggle -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="15dp"
+       >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Dark Mode"
+            android:textSize="16sp"
+            android:textColor="@color/black"/>
+
+        <Switch
+            android:id="@+id/switchDarkMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <!-- Notification Toggle -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Enable Notifications"
+            android:textSize="16sp"
+            android:textColor="@color/black"/>
+
+        <Switch
+            android:id="@+id/switchNotifications"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

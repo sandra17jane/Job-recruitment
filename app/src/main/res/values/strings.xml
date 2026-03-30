@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MADAssignment_JobRecruitment</string>
+    <string name="navigation_drawer_open">Open Navigation</string>
+    <string name="navigation_drawer_close">Close Navigation</string>
+
+    <!-- TextView Values -->
+    <string name="profile_viewed">94</string>
+    <string name="unread_messages">261</string>
+    <string name="applications_sent">874</string>
+    <string name="interviewed">221</string>
+
+
+</resources>

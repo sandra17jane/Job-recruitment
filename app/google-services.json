@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "305967855093",
+    "project_id": "madassignment-1c4ae",
+    "storage_bucket": "madassignment-1c4ae.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:305967855093:android:a07c8741d2df961bfa1cbc",
+        "android_client_info": {
+          "package_name": "com.example.madassignment_jobrecruitment"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBP0RFQnHFQIYdJcMrSDpWc3KRMwng4ZgQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

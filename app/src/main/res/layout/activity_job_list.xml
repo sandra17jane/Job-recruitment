@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".JobListActivity">
+
+    <!-- Back Button -->
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="16dp"
+        android:background="?attr/selectableItemBackground"
+        android:padding="12dp"
+        android:src="@drawable/ic_back_arrow"
+        android:contentDescription="Back Button"/>
+
+    <!-- Job List Container -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:id="@+id/linearLayoutJobs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+</LinearLayout>
